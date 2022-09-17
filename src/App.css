@@ -1,0 +1,235 @@
+/***** NAVIGATION BAR *****/
+
+.navbar-brand > span{
+  font-family: var(--logo-font);
+  font-size: 32px;
+}
+
+.navbar{
+  background-color: var(--brand-bg);
+
+}
+     
+.login-btn {
+  background-image: linear-gradient(to right, #007991 0%, #78ffd6  51%, #007991  100%);
+  padding: 7px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.3s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 0px;
+  border: 1px solid #58B19F;
+
+  }
+
+.login-btn:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+}
+
+.btn-join{
+  background-image: linear-gradient(to right, #303952 0%, #505f89  51%, #545e78  100%);
+  padding: 11px 43px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.3s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 0px;
+  border: 1px solid #303952;
+}
+.btn-join:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  border: 1px solid #303952;
+}
+
+
+/***    General     ***/
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: #222;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize
+}
+
+/** Home Page **/
+
+.hero{
+  background: url('https://wallpaperaccess.com/full/1291020.jpg') no-repeat  center/cover;
+  box-shadow:inset 0 0 0 2000px rgba(48, 57, 82, 0.3);
+  height: 720px;
+}
+
+.hero .container{
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.hero h1{
+  font-family: 'Bowlby One SC', cursive;
+}
+
+/** Services **/
+.services{
+  margin-top: -50px;
+}
+
+.services .col-md-4 div{
+  width: 100%;
+  height: 100px;
+  background-color: #1e272e;
+  color: #fff;
+  border-bottom: 5px solid #58B19F;
+  cursor:pointer;
+  transition: 0.2s;
+}
+
+.services .gameIcons{
+color: #58B19F;
+}
+/* .services .col-md-4 div: hover{
+
+} */
+
+/***    Login Page     ***/
+h2 {
+    font-weight: 300;
+}
+
+form {
+    /* display: inline-block; */
+    background: #f3f3f3;
+    /* border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2rem;
+    margin: 2rem 0 1rem 0 */
+}
+
+
+#sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem
+}
+
+/***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+/** Forum page **/
+
+.forum-container .btn{
+  background-color: #3f4862 !important;
+  color: #ece2e2 !important;  
+  border-color:transparent !important;
+}
+
+.forum-container .btn:hover{
+  background-color: var(--brand-bg) !important;
+  color: #fff !important;
+  border-color:transparent !important;
+}
+
+.isActive{
+  color: red !important;
+}
+
+/** NEWS **/
+
+
+.right-stick{
+  display:block;
+  height: 2px;
+  background-color: #58B19F;
+}
+
+
+.card-title{
+color: #58B19F;
+}
+
+/** About Us **/
+
+.aboutus{
+  background: url('https://static.bhphotovideo.com/explora/sites/default/files/maingaming4.jpg') no-repeat  center/cover;
+  box-shadow:inset 0 0 0 2000px rgba(48, 57, 82, 0.3);
+  height: 675px;
+  width: 100%;
+}
+
+.aboutus .container{
+  background-color: rgba(0, 0, 0, 0.25) !important;
+  width: max-content;
+}
+
+.aboutus h1{
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 25px;
+}
+
+.AppIcon{
+  font-size: 30px;
+}
+.aboutus p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+
+}
+
+/* Banner for About Us */
+.banner{
+  background: url('https://149367133.v2.pressablecdn.com/wp-content/uploads/2019/01/2019-gadgetmatch-at-a-glance-numbers-01042019.png') no-repeat center/cover;
+
+  height: 630px;
+  width: 1344px;
+}
+
+/* Footer for about us */
+.footer{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .nav-link:hover{
+  color: var(--pink) !important;
+} */
+
+#JotFormIFrame-222574376156966{
+  display: block;
+  border: 0px;
+  margin: 50px auto;
+  height: 800px;
+  width: 100%;
+}
